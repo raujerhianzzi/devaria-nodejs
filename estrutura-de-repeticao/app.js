@@ -20,8 +20,13 @@ while(controladorWhile < listaArgumentos.length){
 
 console.log('-----------------executando um DO WHILE-------------------');
 
-let controladorDoWhile = 0;
+/*let controladorDoWhile = 0;
 do{
     console(`Posição ${controladorDoWhile} valor lido = ${listaArgumentos[controladorDoWhile]}`);
     controladorDoWhile++;
-}while(controladorDoWhile < listaArgumentos.length)
+}while(controladorDoWhile < listaArgumentos.length);*/
+
+console.log('---------------------executando um FOR OF--------------------');
+for(const listaArgumentos of listaArgumentos){
+    console.log(`valor lido = ${listaArgumentos}`);
+}
