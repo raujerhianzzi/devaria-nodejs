@@ -13,6 +13,7 @@
   ],
   "author": "rauje rhianzzi",
   "dependencies": {
+    "mo": "^1.7.3",
     "moment": "^2.29.4"
   }
 }
